@@ -1,128 +1,135 @@
 # Global E-Commerce Sales & Profit Intelligence
 
-**Student:** Aakruti Rakesh Yadav  
-**Internship:** IBM SkillsBuild / BharatCares – Data Analytics with AI  
-**Project type:** Business Intelligence / Data Analytics
+**IBM SkillsBuild / BharatCares Final Project**
 
-## 1. Problem Statement
+## 1. Project Overview
 
-The objective is to transform global e-commerce transaction data into actionable business insights. The project evaluates sales, profitability, product categories, regions, customer segments, discounts and shipping costs so that decision-makers can identify performance drivers, risks, opportunities and possible actions.
+This project analyzes global e-commerce sales and customer data to
+understand business performance, identify trends, and highlight
+opportunities for improvement.
 
-## 2. Dataset
+The analysis focuses on key performance indicators (KPIs), product
+categories, monthly trends, regions, and customer segments. The results
+are summarized as business insights and practical recommendations.
 
-Selected dataset: **Global E-Commerce Sales & Customer Data**
+## 2. Project Objectives
 
-Kaggle source:
-https://www.kaggle.com/datasets/muhammadaammartufail/global-e-commerce-sales-and-customer-data
+-   Measure overall sales, profit, and profit margin.
+-   Compare performance across product categories and regions.
+-   Examine monthly sales and profit trends.
+-   Analyze performance by customer segment and product.
+-   Identify potential business risks and opportunities.
+-   Provide data-driven recommendations.
 
-The public dataset contains 2,000 transactions from January 2023 to December 2025, 15 fields, 20 countries, 5 regions, 4 product categories and 3 customer segments. The dataset is synthetic and intended for educational/portfolio analysis.
+## 3. Dataset
 
-## 3. Important note about the internship requirement
+**Dataset:** Global E-Commerce Sales & Customer Data\
+**Source:** [Kaggle
+dataset](https://www.kaggle.com/datasets/muhammadaammartufail/global-e-commerce-sales-and-customer-data)
 
-The internship session says the final project must use a new dataset and must NOT reuse the exact dataset used during the masterclasses. Verify that this dataset was not your masterclass learning dataset before submitting.
+Download the CSV from the Kaggle source and save it in the same folder
+as `project.py`. The script expects the filename to be exactly:
 
-## 4. Business Questions
+`global_ecommerce_sales.csv`
 
-1. What are total sales, profit, orders and average order value?
-2. Which product categories drive sales and profit?
-3. Which regions generate the most profit?
-4. Which regions have a high shipping-cost burden?
-5. Which customer segment contributes the most profit?
-6. How do sales and profit change over time?
-7. Where are loss-making transactions concentrated?
-8. How do discounts relate to profitability?
-9. What actions should management consider?
+**Internship requirement:** The final project must use a new dataset and
+must not reuse the exact dataset used during the masterclasses. Confirm
+that this dataset meets the requirement before submitting.
 
-## 5. KPIs
+## 4. Tools and Technologies
 
-- Total Sales
-- Total Profit
-- Profit Margin %
-- Orders
-- Unique Customers
-- Units Sold
-- Average Order Value
-- Average Discount %
-- Total Shipping Cost
-- Loss-Making Orders
+-   Python
+-   Pandas
+-   NumPy
+-   Matplotlib
+-   CSV and HTML
 
-## 6. Methodology
+## 5. Analysis Performed
 
-Raw data
-→ data-quality checks
-→ duplicate/missing-value handling
-→ data-type conversion
-→ feature engineering
-→ KPI calculation
-→ category/region/segment analysis
-→ monthly trend analysis
-→ business insights
-→ recommended actions
-→ dashboard/report
+-   Data loading and cleaning
+-   KPI calculation
+-   Sales and profit analysis by category
+-   Monthly sales and profit trend analysis
+-   Regional performance analysis
+-   Customer segment analysis
+-   Product performance summary
+-   Charts, an HTML dashboard, and business recommendations
 
-## 7. How to run
+## 6. Key Business Questions
 
-1. Download the CSV from the Kaggle source above.
-2. Save it in the same folder as `project.py`.
-3. Keep the filename exactly:
-   `global_ecommerce_sales.csv`
-4. Install dependencies:
+-   What are the overall sales, profit, and profit margin?
+-   Which product categories contribute most to profit?
+-   How do sales and profit change over time?
+-   Which regions generate the most profit?
+-   How do customer segments compare?
+-   Where should the business investigate costs or lower margins?
 
-```bash
+## 7. How to Run
+
+### Step 1: Download the dataset
+
+Download the CSV file from the [Kaggle dataset
+page](https://www.kaggle.com/datasets/muhammadaammartufail/global-e-commerce-sales-and-customer-data).
+
+### Step 2: Place the CSV file
+
+Save `global_ecommerce_sales.csv` in the same folder as `project.py`.
+
+The project folder should contain at least:
+
+-   `project.py`
+-   `requirements.txt`
+-   `global_ecommerce_sales.csv`
+
+### Step 3: Install dependencies
+
+Open a terminal in the project folder and run:
+
+``` bash
 pip install -r requirements.txt
 ```
 
-5. Run:
+### Step 4: Run the project
 
-```bash
+In the same terminal, run:
+
+``` bash
 python project.py
 ```
 
-The script creates an `outputs/` folder containing:
-- `cleaned_ecommerce_sales.csv`
-- `kpi_summary.csv`
-- `category_summary.csv`
-- `region_summary.csv`
-- `segment_summary.csv`
-- `monthly_summary.csv`
-- `product_summary.csv`
-- `monthly_sales_trend.png`
-- `category_sales.png`
-- `region_profit.png`
-- `dashboard.html`
-- `final_insights.txt`
+### Step 5: View the results
 
-## 8. Final submission files
+When the script completes, it creates an `outputs/` folder containing
+the analysis results, charts, and dashboard.
 
-According to the internship session, the four main files are:
+Open `outputs/dashboard.html` in a web browser to view the dashboard.
 
-1. Project code: `.py` or `.ipynb`
-2. `requirements.txt`
-3. Project report: `.docx` or `.pdf`
-4. `README.md`
+## 8. Generated Outputs
 
-You also need the **GitHub repository URL** in the submission form.
+The script saves the following files in the `outputs/` folder:
 
-The session states that ZIP files are not accepted and that the dataset source link must be included in README.
+-   `cleaned_ecommerce_sales.csv`
+-   `kpi_summary.csv`
+-   `category_summary.csv`
+-   `region_summary.csv`
+-   `segment_summary.csv`
+-   `monthly_summary.csv`
+-   `product_summary.csv`
+-   `monthly_sales_trend.png`
+-   `category_sales.png`
+-   `region_profit.png`
+-   `dashboard.html`
+-   `final_insights.txt`
 
-## 9. GitHub structure
+## 9. Project Deliverables
 
-```text
-global-ecommerce-project/
-├── project.py
-├── requirements.txt
-├── README.md
-└── Project_Report.pdf
-```
+The main project deliverables are:
 
-The dataset itself is not one of the four required form uploads. If you put the CSV in GitHub, check the internship form instructions first; the meeting emphasized the four required files.
+-   Python project code (`project.py`)
+-   Dependencies (`requirements.txt`)
+-   Project report (`Ecommerce_Sales_Profit_Analysis_Report.pdf`)
+-   Project documentation (`README.md`)
 
-## 10. Important submission warning
-
-The transcript does NOT contain the actual submission-form URL. The instructors said the form link would be shared through the WhatsApp group/resource document. Do not submit to an unverified link.
-
-## 11. Expected business-story structure
-
-Fact → Insight → Risk/Opportunity → Action.
-
-The dashboard should not simply display many charts. It should make the important business message easy to understand.
+The GitHub repository URL is submitted separately through the internship
+submission form. ZIP files are not accepted, and the dataset source link
+is included above.
