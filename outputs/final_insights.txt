@@ -1,0 +1,33 @@
+GLOBAL E-COMMERCE SALES & PROFIT INTELLIGENCE
+
+DATA QUALITY
+Original rows: 2000
+Duplicate rows removed: 0
+Rows after cleaning: 2000
+
+EXECUTIVE KPIs
+Total Sales: $484,559.34
+Total Profit: $158,872.32
+Profit Margin: 32.79%
+Orders: 2,000
+Unique Customers: 1,534
+Units Sold: 7,115
+Average Order Value: $242.28
+Average Discount: 8.57%
+Loss-Making Orders: 272
+
+BUSINESS INSIGHTS
+1. Highest-profit category: Furniture ($81,171.57 profit; 31.67% margin).
+2. Lowest category profit margin: Office Supplies (17.12%).
+3. Highest-profit region: Europe ($45,672.16).
+4. Highest shipping-cost burden: Middle East & Africa (7.25% of sales).
+5. Highest-profit customer segment: Consumer ($87,300.36).
+6. Highest-profit month: 2023-02 ($5,980.06).
+7. Lowest-profit month: 2025-02 ($2,430.75).
+
+RECOMMENDED ACTIONS
+- Protect profitable categories and regions while checking whether growth is sustainable.
+- Investigate categories with low profit margin rather than optimizing sales volume alone.
+- Review shipping-cost burden in high-cost regions.
+- Use discount analysis to identify cases where discounts reduce margin without enough volume benefit.
+- Segment customers and prioritize retention/upsell based on profitability and purchase frequency.
